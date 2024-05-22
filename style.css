@@ -7,6 +7,7 @@ body, html {
 }
 
 #main {
+    cursor: pointer;
     font-size: 100px;
     color: #2E475D; 
 }
