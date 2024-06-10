@@ -1,13 +1,87 @@
-body, html {
-    height: 100%;
+.syne-font {
+    font-family: 'Syne', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     margin: 0;
-    display: flex;
-    align-items: center;
+}
+
+.syne-hollow {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.unrbanist-font {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.theory-1 {
+    object-position: center;
+    margin: auto;
+    height: 1072px;
+    width: 100%;
+    background: linear-gradient(180deg, #000000, #041B29);
+
+}
+
+.heading-th {
+    padding: 100px;
+}
+
+.theory-text-2 {
+    font-size:  90px;
+    width: 300;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -30px;
+    color: white;
+}
+
+.theory-text-1 {
+    font-size: 90px;
+    width: 300;
+    text-align: center;
+
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sub-th {
+    font-size: 40px;
+    color: white;
+    display: grid;
+
+    grid-template-areas: 
+    "text1 text2"
+    "text3 text4";
+
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: minmax(50, 50);
+    justify-content: start;
+
+    padding-left: 100px;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto;
+    grid-column-gap: 250px;
+
+
+    color: white;
+
     justify-content: center;
 }
 
-#main {
-    cursor: pointer;
-    font-size: 100px;
-    color: #2E475D; 
+.img-battle {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(img-battle.png);
+    background-size: 100%;
+
 }
