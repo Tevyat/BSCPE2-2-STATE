@@ -127,9 +127,9 @@ html, body {
 }
 
 .show {
-    animation: slideDown 1s forwards;
+    animation: slideDown 1.5s forwards;
 }
 
 .up {
-    animation: slideUp 1s forwards
+    animation: slideUp 1.5s forwards
 }
