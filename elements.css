@@ -67,6 +67,20 @@ html, body {
     scroll-snap-align: start;
 }
 
+.center-text {
+    object-position: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    gap: 50px;
+    scroll-snap-align: start;
+    background: linear-gradient(180deg, #061B29, #0B415E);
+}
+
+
 .img-flag {
     height: 100%;
     width: 100%;
@@ -94,6 +108,26 @@ html, body {
     margin: 1.4%;
     width: 15%;
     height: 100%    
+}
+
+.text-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#text {
+    margin: 10%;
+    font-size: 30px;
+}
+
+.text-img img {
+    width: 35%;
+    height: 35%;
+    margin: auto;
+    margin-right: 100px;
+    border: 10px solid #0b567e;
+    border-radius: 15%;
 }
 
 #red-gradient {
