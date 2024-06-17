@@ -28,12 +28,22 @@ html, body {
 
 
 .theory-text-2 {
+    padding-top: 10px;
     font-size:  90px;
-    width: 300;
+    width: auto;
     text-align: center;
     margin-bottom: 0;
     margin-top: -30px;
     color: white;
+}
+
+.theory-text-small {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .theory-text-1 {
@@ -107,13 +117,12 @@ html, body {
     padding-top: 3%;
     margin: 1.4%;
     width: 15%;
-    height: 100%    
+    height: 100%; 
 }
 
 .text-img {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
 }
 
 #text {
@@ -126,12 +135,85 @@ html, body {
     height: 35%;
     margin: auto;
     margin-right: 100px;
-    border: 10px solid #0b567e;
+    border: 10px solid #e8f7ff;
     border-radius: 15%;
+}
+
+.text-text {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around; 
+    width: auto; 
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+.heading {
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.smaller-heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.paragraph {
+    padding: 20px;
+    font-size: 26px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+#naturalization {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: 10%;
+    border: 5px solid #E69C31;
 }
 
 #red-gradient {
     background: linear-gradient(to bottom, black, red);
+}
+
+#blue-gradient {
+    background: linear-gradient(to bottom, #116998, #D58B2D);
+}
+
+#orange-gradient {
+    background: linear-gradient(to bottom, #E69C31, #5A090A);
+}
+
+#dark-red-gradient {
+    background: linear-gradient(to bottom, #5A090A, #041B29);
+}
+
+#blue-white {
+    background: linear-gradient(to bottom, #041B29, #B5CBDA);
+}
+
+#white-red {
+    background: linear-gradient(to bottom, #B5CBDA, #8C0E0F);
+}
+
+#red-gray {
+    background: linear-gradient(to bottom, #8C0E0F, #737373);
+}
+
+#gray-black {
+    background: linear-gradient(to bottom, #737373, black);
+
 }
 
 #people {
