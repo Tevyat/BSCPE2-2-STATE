@@ -38,26 +38,26 @@ html, body {
 .heading-th {
     height: 100%;
     width: 100%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     display: grid;
 
-    place-items: center;
 }
 
 .theory-text-2 {
-    font-size:  90px;
-    text-align: center;
+    font-size:  100px;
     margin-bottom: 0;
     margin-top: -30px;
     color: white;
     
+    text-align: center;
+    align-self: first baseline;
+    
 }
 
 .theory-text-1 {
-    font-size: 90px;
+    font-size: 100px;
     text-align: center;
+    align-self: last baseline;
+    
 }
 
 .sub-th {
@@ -77,7 +77,6 @@ html, body {
 
 .force-theo {
     grid-area: name;
-
     display: grid;
     grid-template-areas:
     'text text text';
@@ -85,7 +84,27 @@ html, body {
     align-items: center;
     text-align: center;
 
+    grid-template-columns: 2fr 1fr 2fr;
+
+
+
 }
+
+.tft1 {
+    text-align: right;
+    font-size: 100px;
+}
+
+.tft2 {
+    margin: 0;
+    font-size: 100px;
+}
+
+.tft3 {
+    text-align: left;
+    font-size: 100px;
+}
+
 
 .details {
     grid-area: detail;
@@ -103,10 +122,9 @@ html, body {
 
 
 .img-battle {
-    grid-area: img-start;
-    width: 100%;
+    grid-area: img;
+    width: 1080;
     height: 100%;
     background-image: url(imgs/img-battle.png);
-    background-size: 100%;
 
 }
