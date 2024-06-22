@@ -129,21 +129,33 @@ html, body {
 
 .img-text {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 80%;
+    text-align: center;
 }
 
 .imges {
-    flex: 1;
-    margin: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .imges img {
-    width: 350px;
-    height: 170px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 10px
+}
+
+@media (max-width: 768px) {
+    .imges {
+        flex-direction: column; 
+    }
+
+    .imges img {
+        max-width: 100%; 
+    }
 }
 
 .img-power {
