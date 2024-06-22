@@ -128,7 +128,6 @@ html, body {
 }
 
 .img-text {
-    margin-left: 5%;
     display: flex;
     align-items: center;
     width: 80%;
