@@ -18,6 +18,16 @@ html, body {
     scrollbar-width: none; 
 }
 
+.scroll-wrapper {
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    gap: 50px;
+    scroll-snap-align: start;
+}
+
 .syne-font {
     font-family: 'Syne', sans-serif;
     font-optical-sizing: auto;
@@ -38,6 +48,15 @@ html, body {
     font-style: normal;
 }
 
+
+.center-text {
+    top: 0;
+    text-align: center;
+    width: 100%;
+    font-size:  70px;
+    color: white;
+    padding: 10px 0
+}
 
 .theory-text-2 {
     padding-top: 10px;
@@ -67,14 +86,45 @@ html, body {
     margin-top: 0;
 }
 
-.scroll-wrapper {
-    height: 100%;
+.center-small-text {
+    font-size: 18px;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+
+.paragraph {
+    padding: 20px;
+    font-size: 26px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    gap: 40px;
+}
+
+.box {
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+
+.box img {
     width: 100%;
-    align-content: center;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    gap: 50px;
-    scroll-snap-align: start;
+    height: auto; 
+}
+
+.box p {
+    margin: 10px 0 0; 
 }
 
 .img-power {
@@ -86,4 +136,67 @@ html, body {
     background-size: cover;
     background-blend-mode: overlay;
     background-position: center;
+}
+
+.police-power {
+    height: 100%;
+    width: 100%;
+    background:
+    url('imgs/police-power.png')
+    rgba(26, 26, 28, 0.852) no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+.img-chain {
+    height: 100%;
+    width: 100%;
+    background: 
+    rgb(97, 12, 12)
+        url('imgs/img-chain.png') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+.img-court {
+    height: 100%;
+    width: 100%;
+    background: 
+    rgba(75, 70, 70, 0.929)
+        url('imgs/img-supremecourt.png') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+#blue-grade {
+    background: linear-gradient(to bottom, #083248, #041B29);
+}
+
+@keyframes slideDown {
+    0% { opacity: 0; transform: translateY(-30%); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    0% { opacity: 0; transform: translateY(30%); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.hidden2 {
+    opacity: 0;
+}
+
+.show {
+    animation: slideDown 1.5s forwards;
+}
+
+.up {
+    animation: slideUp 1.5s forwards
 }
