@@ -1,3 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 .syne-font {
     font-family: 'Syne', sans-serif;
     font-optical-sizing: auto;
@@ -11,7 +18,7 @@
     -webkit-text-stroke: 2px white;
 }
 
-.unrbanist-font {
+.urbanist-font {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -22,66 +29,102 @@
 .theory-1 {
     object-position: center;
     margin: auto;
-    height: 1072px;
+    height: 100%;
     width: 100%;
     background: linear-gradient(180deg, #000000, #041B29);
 
 }
 
 .heading-th {
-    padding: 100px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+
 }
 
 .theory-text-2 {
-    font-size:  90px;
-    width: 300;
-    text-align: center;
+    font-size:  100px;
     margin-bottom: 0;
     margin-top: -30px;
     color: white;
+    
+    text-align: center;
+    align-self: first baseline;
+    
 }
 
 .theory-text-1 {
-    font-size: 90px;
-    width: 300;
+    font-size: 100px;
     text-align: center;
-
-    margin-bottom: 0;
-    margin-top: 0;
+    align-self: last baseline;
+    
 }
 
 .sub-th {
     font-size: 40px;
     color: white;
-    display: grid;
-
+    height: 100%;
+    width: 100%;
+    background-color: #041B29; 
+    
+    display: grid; 
     grid-template-areas: 
-    "text1 text2"
-    "text3 text4";
+    'name name name'
+    'detail detail detail'
+    'img img img';
 
-    grid-template-columns: 200px 200px;
-    grid-auto-rows: minmax(50, 50);
-    justify-content: start;
-
-    padding-left: 100px;
 }
 
-.detail {
+.force-theo {
+    grid-area: name;
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: auto;
-    grid-column-gap: 250px;
+    grid-template-areas:
+    'text text text';
+
+    align-items: center;
+    text-align: center;
+
+    grid-template-columns: 2fr 1fr 2fr;
 
 
-    color: white;
 
-    justify-content: center;
 }
+
+.tft1 {
+    text-align: right;
+    font-size: 100px;
+}
+
+.tft2 {
+    margin: 0;
+    font-size: 100px;
+}
+
+.tft3 {
+    text-align: left;
+    font-size: 100px;
+}
+
+
+.details {
+    grid-area: detail;
+
+    display: grid;
+    grid-template-areas: 
+    'text text';
+}
+
+.details p {
+    text-align: justify;
+    margin: 5%;
+    font-size: 30px;
+}
+
 
 .img-battle {
-    width: 100vh;
-    height: 100vh;
+    grid-area: img;
+    width: 1080;
+    height: 100%;
     background-image: url(imgs/img-battle.png);
-    background-size: 100%;
 
 }
