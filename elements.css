@@ -77,6 +77,36 @@ html, body {
     scroll-snap-align: start;
 }
 
+.scroll-wrapper-med {
+    height: 150vh;
+    width: 100%;
+    align-content: center;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    gap: 50px;
+    scroll-snap-align: start;
+}
+
+.scroll-wrapper-long {
+    height: 200vh;
+    width: 100%;
+    align-content: center;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    gap: 50px;
+    scroll-snap-align: start;
+}
+
+.scroll-wrapper-longer {
+    height: 230vh;
+    width: 100%;
+    align-content: center;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    gap: 50px;
+    scroll-snap-align: start;
+}
+
 .center-text {
     object-position: center;
     margin: auto;
@@ -100,6 +130,14 @@ html, body {
     background-size: cover;
     background-blend-mode: overlay;
     background-position: center;
+}
+
+.filipino-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 70%;
 }
 
 .underline {
@@ -213,7 +251,45 @@ html, body {
 
 #gray-black {
     background: linear-gradient(to bottom, #737373, black);
+}
 
+#citizen-gradient {
+    background: linear-gradient(to bottom, black, #8C0E0F);
+}
+
+#constitution-gradient {
+    background: linear-gradient(to bottom, #8C0E0F, #E69C31);
+}
+
+#reaquisition-gradient {
+    background: linear-gradient(to bottom, #E69C31, #150202);
+}
+
+#acquire-gradient {
+    background: linear-gradient(to bottom, #150202, #BCAF7B);
+}
+
+#reaquisition2-gradient {
+    background: linear-gradient(to bottom, #BCAF7B, #091F2C);
+}
+
+#reaquisition3-gradient {
+    background: linear-gradient(to bottom, #091F2C, #5A090A);
+}
+
+#alien-gradient {
+    background: linear-gradient(to bottom, #5A090A, #D37E2A);
+}
+
+#dual-gradient {
+    background: linear-gradient(to bottom, #D37E2A, #5A090A);
+}
+
+.yellow {
+    color: #E69C31;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #people {
