@@ -1,14 +1,28 @@
-.large {
-    width: 300px;
-    height: 300px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.medium {
-    width: 200px;
-    height: 200px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: darkolivegreen;
 }
 
-.small {
-    width: 100px;
-    height: 100px;
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+img {
+    max-width: 320px;
+    float: left;
+}
+
+.text-box {
+    color: white;
+    
 }
