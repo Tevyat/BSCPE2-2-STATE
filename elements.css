@@ -136,8 +136,8 @@ html, body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    height: 70%;
+    max-width: 90%;
+    max-height: 70%;
 }
 
 .underline {
@@ -274,15 +274,19 @@ html, body {
 }
 
 #reaquisition3-gradient {
-    background: linear-gradient(to bottom, #091F2C, #5A090A);
+    background: linear-gradient(to bottom, #091F2C, #224040);
 }
 
 #alien-gradient {
+    background: linear-gradient(to bottom, #224040, #5A090A);
+}
+
+#alien2-gradient {
     background: linear-gradient(to bottom, #5A090A, #D37E2A);
 }
 
 #dual-gradient {
-    background: linear-gradient(to bottom, #D37E2A, #5A090A);
+    background: linear-gradient(to bottom, #D37E2A, #739DBA);
 }
 
 .yellow {
