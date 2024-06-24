@@ -265,8 +265,12 @@ html, body {
     background: linear-gradient(to bottom, #E69C31, #150202);
 }
 
+#five-gradient {
+    background: linear-gradient(to bottom, #150202, #8C0E0F);
+}
+
 #acquire-gradient {
-    background: linear-gradient(to bottom, #150202, #BCAF7B);
+    background: linear-gradient(to bottom, #8C0E0F, #BCAF7B);
 }
 
 #reaquisition2-gradient {
