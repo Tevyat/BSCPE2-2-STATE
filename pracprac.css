@@ -1,0 +1,492 @@
+.theory-1 {
+    object-position: center;
+    margin: auto;
+    height: 2000px;
+    width: 100%;
+    background: linear-gradient(180deg, #000000, #041B29);
+}
+
+.sep1 {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(180deg, #041B29, #8C0E0F);
+}
+
+.sep2 {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(180deg, black, #8C0E0F);
+}
+
+.sep3 {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(180deg, #041B29, #8C0E0F);
+}
+
+.sep4 {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(180deg, #041B29, black);
+}
+
+.sep5 {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(180deg, black, white);
+}
+
+.theory-2 {
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, #8C0E0F, #000000);
+}
+
+.theory-3 {
+    height: 1500px;
+    width: 100%;
+    background: linear-gradient(180deg, black, black);
+}
+
+.theory-3-1 {
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(180deg, black, black);
+}
+
+.theory-3-2 {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(180deg, #8C0E0F, #041B29);
+}
+
+.theory-4 {
+    height: 1700px;
+    width: 100%;
+    background: linear-gradient(180deg, #8C0E0F, black);
+}
+
+.theory-5 {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(180deg, black, black);
+}
+
+.theory-6 {
+    height: 1700px;
+    width: 100%;
+    background: linear-gradient(180deg, #8C0E0F, #041B29);
+    padding-top: 1px;
+}
+
+.theory-7 {
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, black, black);
+}
+
+.theory-8 {
+    height: 1400px;
+    width: 100%;
+    background-color: black; 
+    background-image: url(pics/Rectangle45.png);
+}
+
+.test {
+    margin-top: 0px;
+}
+
+.theory-text-1 {
+    font-size: 90px;
+    width: 300;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 200px;
+}
+
+.theory-text-2 {
+    font-size:  90px;
+    width: 300;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -30px;
+    color: white;
+}
+
+.syne-font {
+    font-family: 'Syne', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
+
+.syne-hollow {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.syne-hollow2 {
+    color: transparent;
+    -webkit-text-stroke: 2px #E69C31;
+}
+
+.heading-th {
+    padding: 200px;
+}
+
+.title1 {
+    font-size: 40px;
+    color: white;
+    display: grid;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+
+.title2 {
+    font-size: 40px;
+    color: #E69C31;
+    display: grid;
+    margin-left: 90px;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 50px;
+}
+
+.title3 {
+    font-size: 40px;
+    color: white;
+    display: grid;
+    margin-right: 20px;
+    margin-top: 100px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.title3-1 {
+    font-size: 40px;
+    color: white;
+    display: grid;
+    margin-right: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.title4 {
+    font-size: 40px;
+    color: #E69C31;
+    display: grid;
+    text-align: center;
+    font-size: 80px;
+}
+
+.title5 {
+    font-size: 40px;
+    color: white;
+    display: grid;
+    margin-right: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.title6 {
+    font-size: 80px;
+    color: white;
+    display: grid;
+    margin-right: 20px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.title7 {
+    font-size: 60px;
+    color: white;
+    display: grid;
+    margin-left: 50px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.title8 {
+    font-size: 60px;
+    color: white;
+    display: grid;
+    margin-left: 50px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 300px;
+    
+}
+
+.img1 {
+    max-width: 920px;
+    float: left;
+    margin: 50px;
+    margin-right: 50px;
+    border: 10px solid black; /* Dashed border */
+    border-radius: 10px; /* Rounded corners */
+    border-color: #041B29; /* Specific border color */
+}
+
+.textbox1 {
+    color: white;
+    padding: 80px;
+    font-size: 25px;
+}
+
+.urbanist-font {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 {
+    display: flex;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container6-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container6-2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.container8-1 {
+    display: flex;
+    padding: 30px;
+}
+
+
+
+.pic1 {
+    width: 1500px;
+    height: 1600px;
+    background-image: url(pics/stoneman.png);
+    background-size: 60% 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.urbanist-font1 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: justify;
+    color: #E69C31;
+    font-size: 25px;
+    padding: 20px;
+}
+.urbanist-font2 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: justify;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.urbanist-font3 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-align-last: left;
+    color: #E69C31;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.urbanist-font3-1 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    text-align-last: left;
+    color: #E69C31;
+    padding: 20px;
+}
+
+.urbanist-font4 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: justify;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.img2 {
+    max-width: 720px;
+    border: none;
+}
+
+.pic {
+    width: 1500px;
+    height: 1600px;
+    background-image: url(pics/adam.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.one {
+    max-width: 800px;
+    padding-top: 60px;
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+.two {
+    max-width: 300px;
+    font-size: 20px;
+    align-self: flex-end;
+    padding-right: 330px;
+    padding-top: 250px;
+}
+
+.three {
+    max-width: 900px;
+    font-size: 20px;
+    align-self: flex-end;
+    padding-right: 30px;
+    padding-top: 120px;
+}
+
+.two-one {
+    max-width: 500px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.two-two {
+    max-width: 500px;
+    font-size: 20px;
+    padding-left: 500px;
+    padding-top: 0px;
+}
+
+.img-nigeria {
+    width: 1000px;
+    height: 500px;
+}
+
+.shorthr {
+    width: 1300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.four1 {
+    font-size: 20px;
+    padding-top: 75px;
+}
+
+.five-one {
+    width: 1000px;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.six {
+    font-size: 20px;
+    padding-top: 75px;
+    max-width: 1000px;
+    padding-right: 100px;
+}
+
+.six-one {
+    font-size: 20px;
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+.pic5 {
+    width: 600px;
+    height: 800px;
+}
+
+.five-three {
+    text-align: right;
+    margin-top: 100px;
+    padding-right: 100px;
+    font-size: 80px;
+}
+
+.six-2 {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.picsmall{
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid black; /* Dashed border */
+    border-radius: 5px; /* Rounded corners */
+    border-color: #480a0a; /* Specific border color */
+    margin-top: 30px;
+}
+
+.picsmall2{
+    width: 400px;
+    height: 400px;
+}
+
+.seven {
+    max-width: 400px;
+    font-size: 20px;
+}
+
+.vertical {
+    width: 2px;
+    height: 350px; /* Adjust height as needed */
+    background-color: white; /* Adjust color as needed */
+}
+
+.orange {
+    color: #E69C31;
+}
