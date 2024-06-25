@@ -92,7 +92,20 @@ html, body {
     max-width: 1200px;
 }
 
+.text-text {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around; 
+    width: auto; 
+}
+h1 {
+    text-align: center;
+}
+
 .text-left, .text-right {
+    display: space-between;
     max-width: 50%;
     flex: 50%;
 }
@@ -106,7 +119,7 @@ html, body {
     max-width: 100%;
     height: auto;
     display: block;
-    border-radius: 15px; /* Optional border radius */
+    border-radius: 15px;
 }
 
 @media (max-width: 768px) {
@@ -117,9 +130,6 @@ html, body {
         width: 100%;
         height: auto;
         border-radius: 15px 15px 0 0;
-    }
-    .text-left, .text-right {
-        max-width: 100%;
     }
 }
 
@@ -137,6 +147,17 @@ html, body {
     background: 
     rgba(37, 54, 140, 0.847)
         url('imgs/img-government.png') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+.img-recognition {
+    height: 100%;
+    width: 100%;
+    background: 
+    #9a2811d8
+        url('imgs/img-recognition.png') no-repeat center center fixed;
     background-size: cover;
     background-blend-mode: overlay;
     background-position: center;
@@ -160,4 +181,49 @@ html, body {
 
 #j-gradient {
     background: linear-gradient(to bottom, #041B29, #163D57);
+}
+
+#explain-gradient {
+    background: linear-gradient(to bottom, #163D57, #D58B2D);
+}
+
+#types-gradient {
+    background: linear-gradient(to bottom, #D58B2D, #5A090A);
+}
+
+#demo-gradient {
+    background: linear-gradient(to bottom, #5A090A, #9a2811d8);
+}
+
+#recognition-gradient {
+    background: linear-gradient(to bottom, #9a2811d8, #1849cebe);
+}
+
+#forms-gradient {
+    background: linear-gradient(to bottom, #1849cebe, #000000be);
+}
+
+.table-container {
+    width: 80%; 
+    max-width: 1200px; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 12%;
+    justify-content: center; 
+}
+
+table, th, td {
+    border: 2px solid white;
+    border-radius: 15%;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px
 }
