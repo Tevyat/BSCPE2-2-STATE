@@ -29,7 +29,7 @@ html, body {
 
 .theory-text-2 {
     padding-top: 10px;
-    font-size:  500%;
+    font-size:  480%;
     width: auto;
     text-align: center;
     margin-bottom: 0;
@@ -121,10 +121,20 @@ h1 {
     text-align: center;
 }
 
-.text-left, .text-right {
+.text-left  {
+    float: left;
     display: space-between;
-    max-width: 50%;
+    max-width: 80%;
     flex: 50%;
+    margin: auto;
+}
+
+.text-right {
+    float: right;
+    display: space-between;
+    max-width: 80%;
+    flex: 50%;
+    margin: auto;
 }
 
 .img-right, .img-left {
