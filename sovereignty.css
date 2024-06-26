@@ -105,9 +105,18 @@ h1 {
     text-align: center;
 }
 
-.text-left, .text-right {
+.text-left  {
+    float: left;
     display: space-between;
-    max-width: 50%;
+    max-width: 80%;
+    flex: 50%;
+    margin: auto;
+}
+
+.text-right {
+    float: right;
+    display: space-between;
+    max-width: 80%;
     flex: 50%;
     margin: auto;
 }
@@ -193,6 +202,17 @@ img {
     background: linear-gradient(to bottom, #8C0E0F, #041B29);
 }
 
+#do-imp {
+    background: linear-gradient(to bottom, #041B29, #BDAE7B);
+}
+
+#do {
+    background: linear-gradient(to bottom, #BDAE7B, #132C3C);
+}
+
+#imp {
+    background: linear-gradient(to bottom, #BDAE7B, #E09F42);
+}
 
 .table-container {
     width: 80%; 

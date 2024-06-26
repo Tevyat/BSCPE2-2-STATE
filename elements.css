@@ -78,7 +78,7 @@ html, body {
 }
 
 .scroll-wrapper-med {
-    height: 150vh;
+    height: 120vh;
     width: 100%;
     align-content: center;
     overflow-y: scroll;
@@ -88,7 +88,7 @@ html, body {
 }
 
 .scroll-wrapper-long {
-    height: 200vh;
+    height: 180vh;
     width: 100%;
     align-content: center;
     overflow-y: scroll;
@@ -98,7 +98,7 @@ html, body {
 }
 
 .scroll-wrapper-longer {
-    height: 230vh;
+    height: 200vh;
     width: 100%;
     align-content: center;
     overflow-y: scroll;
