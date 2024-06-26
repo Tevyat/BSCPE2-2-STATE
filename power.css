@@ -101,6 +101,16 @@ html, body {
     text-align: justify;
 }
 
+.text-img {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
 .box-container {
     display: flex;
     justify-content: center;
@@ -143,7 +153,7 @@ html, body {
 
 .imges img {
     width: 100%;
-    max-width: 350px;
+    max-width: 600px;
     height: auto;
     margin-bottom: 10px
 }
