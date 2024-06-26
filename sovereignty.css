@@ -175,16 +175,17 @@ img {
     background-position: center;
 }
 
-.img-recognition {
+.img-regalia {
     height: 100%;
     width: 100%;
     background: 
-    #9a2811d8
-        url('imgs/img-recognition.png') no-repeat center center fixed;
+    #151515d8
+        url('imgs/img-regalia.png') no-repeat center center fixed;
     background-size: cover;
     background-blend-mode: overlay;
     background-position: center;
 }
+
 
 #meaning-gradient {
     background: linear-gradient(to bottom, #25368cd8, #8C0E0F);
@@ -211,34 +212,25 @@ img {
 }
 
 #imp {
-    background: linear-gradient(to bottom, #BDAE7B, #E09F42);
+    background: linear-gradient(to bottom, #132C3C, #E09F42);
 }
 
 #char {
     background: linear-gradient(to bottom, #E09F42, #5A090A);
 }
 
-.table-container {
-    width: 80%; 
-    max-width: 1200px; 
-    text-align: center; 
-    justify-content: center; 
-    align-items: center;
+#immunity {
+    background: linear-gradient(to bottom, #5A090A, #6C1B0E);
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-left: 12%;
-    justify-content: center; 
+#j-i {
+    background: linear-gradient(to bottom, #6C1B0E, #E99C32);
 }
 
-table, th, td {
-    border: 2px solid white;
-    border-radius: 15%;
-    text-align: center;
+#waives {
+    background: linear-gradient(to bottom, #E99C32, #6C1B0E);
 }
 
-th, td {
-    padding: 10px
+#implications {
+    background: linear-gradient(to bottom, #6C1B0E, black);
 }
