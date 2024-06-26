@@ -112,10 +112,16 @@ h1 {
     margin: auto;
 }
 
-.img-right, .img-left {
+.img-right {
     max-width: 30%;
     flex: 50%;
     margin-right: 10%
+}
+
+.img-left {
+    max-width: 30%;
+    flex: 50%;
+    margin-left: 10%
 }
 
 img {
@@ -181,6 +187,10 @@ img {
 
 #in-ex {
     background: linear-gradient(to bottom,#041B29, #8C0E0F);
+}
+
+#pop-sov {
+    background: linear-gradient(to bottom, #8C0E0F, #041B29);
 }
 
 
