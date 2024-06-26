@@ -123,7 +123,7 @@ html, body {
 }
 
 .scroll-wrapper-longer {
-    height: 200vh;
+    height: 230vh;
     width: 100%;
     align-content: center;
     overflow-y: scroll;
