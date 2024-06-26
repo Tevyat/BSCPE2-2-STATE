@@ -214,6 +214,10 @@ img {
     background: linear-gradient(to bottom, #BDAE7B, #E09F42);
 }
 
+#char {
+    background: linear-gradient(to bottom, #E09F42, #5A090A);
+}
+
 .table-container {
     width: 80%; 
     max-width: 1200px; 
