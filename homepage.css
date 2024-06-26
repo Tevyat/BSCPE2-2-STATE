@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.syne-font {
+    font-family: 'Syne', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
+
+.urbanist-font {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)
+    ),
+    url(imgs/state_home.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.navbar .nav_links {
+    display: flex;
+    gap: 40px;
+
+}
+
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    color:blue;
+}
+
+.content_section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.content_section .content {
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.content_section .content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+} 
+
+.content_section .content p {
+    margin-top: 15px;
+    max-width: 600px;
+    text-align: justify;
+}
+
