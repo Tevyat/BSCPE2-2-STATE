@@ -1,14 +1,19 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+
 }
+
 
 .theory-1 {
     object-position: center;
-    margin: auto;
     height: 2000px;
     width: 100%;
     background: linear-gradient(180deg, #000000, #041B29);
+    margin: 0;
+    padding: 0;
 }
 
 .sep1 {
@@ -101,7 +106,7 @@ html, body {
     margin-top: 0px;
 }
 
-@media (min-width: 500px) {
+@media (min-width) {
     .theory-1 {
         width: 1707px; /* Use !important to ensure it takes precedence */
     }

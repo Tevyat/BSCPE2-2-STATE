@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -387,9 +388,11 @@ theory-2 {
     background-repeat: no-repeat;
     background-position: top;
     margin: auto;
+    width: 100%;
     background-size: cover;
     background-blend-mode: overlay;
     background-position: center;
+
 }
 
 
