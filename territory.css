@@ -106,7 +106,11 @@ theory-2 {
     background: linear-gradient(180deg, #8C0E0F, #000000);
 }
 
-
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media (max-width: 1000px) {
     .page-1 {
@@ -199,6 +203,12 @@ theory-2 {
         background: linear-gradient(180deg, #0d2c2c, black);
     }
     
+    .page-16 {
+        height: 700px;
+        width: 1700px;
+        background: linear-gradient(180deg, black, #0d2c2c);
+    }
+
     .sep1 {
         height: 200px;
         width: 1700px;
@@ -493,11 +503,6 @@ theory-2 {
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
 }
 
-.button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .redirect-button {
     width: 50%;
