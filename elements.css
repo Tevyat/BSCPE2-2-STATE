@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .syne-font {
@@ -84,11 +84,6 @@ html, body {
     height: 100vh;
     width: 100%;
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    scrollbar-width: none; 
 }
 
 .scroll-wrapper {
