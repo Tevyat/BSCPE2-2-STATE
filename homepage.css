@@ -14,6 +14,12 @@ html, body {
     margin: 0;
 }
 
+.syne-hollow {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+
 .urbanist-font {
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
@@ -40,8 +46,8 @@ header {
     left: 0;
     width: 100%;
     padding: 20px;
-
     font-family: 'Poppins', sans-serif;
+    background: rgba(0, 0, 0, 0.25);
     
 }
 
@@ -51,6 +57,7 @@ header .navbar {
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
+    padding: 0.5 rem 1.5rem;
 }
 
 .navbar .logo {
@@ -61,7 +68,50 @@ header .navbar {
 .navbar .nav_links {
     display: flex;
     gap: 40px;
+    list-style-type: none;
+}
 
+.navbar .nav_links .drop-down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.drop-down {
+    position: absolute;
+    padding: 2rem 0;
+    margin: 0.5rem -0.5rem;
+    background: black;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    display: none;
+}
+
+.contents-drop a {
+    display: flex;
+}
+
+.drop-icon {
+    font-size: 20px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+
+.contents-drop:hover .drop-icon {
+    transform: rotate(180deg);
+}
+
+.drop-down li:hover {
+
+}
+
+.contents-drop:hover .drop-down {
+    display: block;
 }
 
 
@@ -72,31 +122,95 @@ header .navbar {
 }
 
 .navbar a:hover {
-    color:blue;
+    color:rgb(0, 255, 200);
 }
 
 .content_section {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0;
 }
+
+
 
 .content_section .content {
     color: #fff;
     max-width: 1200px;
     margin: 0 auto;
-
+    display: grid;
+    grid-template-areas: 
+    'state state state'
+    'desription description imgs'
+    'space space img';
 }
 
+
 .content_section .content h1 {
-    font-size: 3rem;
+    font-size: 7rem;
     max-width: 600px;
+    grid-area: state;
 } 
 
 .content_section .content p {
     margin-top: 15px;
     max-width: 600px;
     text-align: justify;
+    grid-area: description;
+    font-size: 1.3rem;
 }
 
+.content_section .content #heading2 {
+    margin-top: 15px;
+    max-width: 600px;
+    text-align: justify;
+    grid-area: description;
+    font-size: 3rem;
+}
+
+.pages_selection {
+    display: flex;
+    grid-area: imgs;
+    object-position: right;
+
+}
+
+.pages_selection li {
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.pages_selection li img{
+    height: 200px;
+    width: 150x;
+    object-fit: scale-down;
+    border-radius: 10%;
+}
+
+.content_section .content button{
+    grid-area: space;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    border-radius: 0px;
+    max-width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid #333333;
+    transition: 0.3s;
+    box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
+    background-color: #ffffff;
+}
+
+
+    
+.content_section .content a button:hover{
+    box-shadow: 0 0 #333;
+    color: #fff;
+    background-color: #333;
+}
