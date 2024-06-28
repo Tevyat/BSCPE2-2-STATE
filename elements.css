@@ -88,7 +88,6 @@ html, body {
     ::-webkit-scrollbar {
         display: none;
     }
-    -ms-overflow-style: none;  
     scrollbar-width: none; 
 }
 
@@ -96,40 +95,28 @@ html, body {
     height: 100%;
     width: 100%;
     align-content: center;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     gap: 50px;
-    scroll-snap-align: start;
 }
 
 .scroll-wrapper-med {
     height: 120vh;
     width: 100%;
     align-content: center;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     gap: 50px;
-    scroll-snap-align: start;
 }
 
 .scroll-wrapper-long {
     height: 180vh;
     width: 100%;
     align-content: center;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     gap: 50px;
-    scroll-snap-align: start;
 }
 
 .scroll-wrapper-longer {
     height: 230vh;
     width: 100%;
     align-content: center;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     gap: 50px;
-    scroll-snap-align: start;
 }
 
 .center-text {
@@ -138,10 +125,7 @@ html, body {
     height: 100%;
     width: 100%;
     align-content: center;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     gap: 50px;
-    scroll-snap-align: start;
     background: linear-gradient(180deg, #061B29, #0B415E);
 }
 
@@ -266,8 +250,12 @@ html, body {
     background: linear-gradient(to bottom, #041B29, #B5CBDA);
 }
 
+#white-blue {
+    background: linear-gradient(to bottom, #B5CBDA, #041B29);
+}
+
 #white-red {
-    background: linear-gradient(to bottom, #B5CBDA, #8C0E0F);
+    background: linear-gradient(to bottom, #041B29, #8C0E0F);
 }
 
 #red-gray {
