@@ -106,7 +106,7 @@ html, body {
     margin-top: 0px;
 }
 
-@media (min-width) {
+@media (max-width: 1000px) {
     .theory-1 {
         width: 1707px; /* Use !important to ensure it takes precedence */
     }
