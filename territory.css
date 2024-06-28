@@ -1,0 +1,488 @@
+.page-1 {
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, #000000, #041B29);
+}
+
+.page-2 {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(180deg, #061B29, #0B415E);
+}
+
+.page-3 {
+    height: 1200px;
+    width: 100%;
+    background: linear-gradient(180deg, #0B415E, #116998);
+}
+
+.page-4 {
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(180deg, #D58B2D, #5A090A);
+}
+
+.page-5 {
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(180deg, #5A090A, #041B29);
+}
+
+.page-6 {
+    height: 3200px;
+    width: 100%;
+    background: linear-gradient(180deg, #041B29, #370405, black);
+}
+
+.page-7 {
+    height: 1600px;
+    width: 100%;
+    background: linear-gradient(180deg, black, #8C0E0F, black);
+}
+
+.page-8 {
+    height: 1100px;
+    width: 100%;
+    background: linear-gradient(180deg, black, #041B29, black);
+}
+
+.page-9 {
+    height: 12  00px;
+    width: 100%;
+    background: linear-gradient(180deg, black, #8C0E0F, black, #041B29, black);
+}
+
+.page-10 {
+    height: 1200px;
+    width: 100%;
+    background: linear-gradient(180deg, black, #64543B, #BCAF7B, #64543B);
+}
+
+.page-11 {
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, #64543B, #BCAF7B, #116998, #183238);
+}
+
+.page-12 {
+    height: 1200px;
+    width: 100%;
+    background: linear-gradient(180deg, #183238, #116998, #224040);
+}
+
+.page-13 {
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, #224040, #183238);
+}
+
+.page-14 {
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(180deg, #183238, #224040, #0d2c2c);
+}
+
+.page-15 {
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(180deg, #0d2c2c, black);
+}
+
+.sep1 {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(180deg, #116998, #D58B2D);
+}
+
+theory-2 {
+    height: 1000px;
+    width: 100%;
+    background: linear-gradient(180deg, #8C0E0F, #000000);
+}
+
+
+
+@media (max-width: 1000px) {
+    .page-1 {
+        height: 1000px;
+        width: 1700px;
+        background: linear-gradient(180deg, #000000, #041B29);
+    }
+    
+    .page-2 {
+        height: 800px;
+        width: 1700px;
+        background: linear-gradient(180deg, #061B29, #0B415E);
+    }
+    
+    .page-3 {
+        height: 1200px;
+        width: 1700px;
+        background: linear-gradient(180deg, #0B415E, #116998);
+    }
+    
+    .page-4 {
+        height: 900px;
+        width: 1700px;
+        background: linear-gradient(180deg, #D58B2D, #5A090A);
+    }
+    
+    .page-5 {
+        height: 900px;
+        width: 1700px;
+        background: linear-gradient(180deg, #5A090A, #041B29);
+    }
+    
+    .page-6 {
+        height: 3200px;
+        width: 1700px;
+        background: linear-gradient(180deg, #041B29, #370405, black);
+    }
+    
+    .page-7 {
+        height: 1600px;
+        width: 1700px;
+        background: linear-gradient(180deg, black, #8C0E0F, black);
+    }
+    
+    .page-8 {
+        height: 1100px;
+        width: 1700px;
+        background: linear-gradient(180deg, black, #041B29, black);
+    }
+    
+    .page-9 {
+        height: 12  00px;
+        width: 1700px;
+        background: linear-gradient(180deg, black, #8C0E0F, black, #041B29, black);
+    }
+    
+    .page-10 {
+        height: 1200px;
+        width: 1700px;
+        background: linear-gradient(180deg, black, #64543B, #BCAF7B, #64543B);
+    }
+    
+    .page-11 {
+        height: 1000px;
+        width: 1700px;
+        background: linear-gradient(180deg, #64543B, #BCAF7B, #116998, #183238);
+    }
+    
+    .page-12 {
+        height: 1200px;
+        width: 1700px;
+        background: linear-gradient(180deg, #183238, #116998, #224040);
+    }
+    
+    .page-13 {
+        height: 1000px;
+        width: 1700px;
+        background: linear-gradient(180deg, #224040, #183238);
+    }
+    
+    .page-14 {
+        height: 700px;
+        width: 1700px;
+        background: linear-gradient(180deg, #183238, #224040, #0d2c2c);
+    }
+    
+    .page-15 {
+        height: 700px;
+        width: 1700px;
+        background: linear-gradient(180deg, #0d2c2c, black);
+    }
+    
+    .sep1 {
+        height: 200px;
+        width: 1700px;
+        background: linear-gradient(180deg, #116998, #D58B2D);
+    }
+    
+    theory-2 {
+        height: 1000px;
+        width: 1700px;
+        background: linear-gradient(180deg, #8C0E0F, #000000);
+    }
+}
+.theory-text-1 {
+    font-size: 90px;
+    width: 300;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 200px;
+}
+
+.syne-font {
+    font-family: 'Syne', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+}
+
+.syne-hollow {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+
+.syne-hollow2 {
+    color: transparent;
+    -webkit-text-stroke: 2px #E69C31;
+}
+
+.img1 {
+    max-width: 920px;
+    float: left;
+    margin: 50px;
+    margin-right: 50px;
+    border: 5px solid black; /* Dashed border */
+    border-radius: 5px; /* Rounded corners */
+    border-color: #116998; /* Specific border color */
+    margin-top: 10px;
+}
+
+.img2 {
+    max-width: 620px;
+    float: left;
+    margin: 50px;
+    margin-right: 50px;
+    border: 3px solid black; /* Dashed border */
+    border-radius: 5px; /* Rounded corners */
+    border-color: black; /* Specific border color */
+    margin-top: 10px;
+}
+
+.urbanist-font {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: justify;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+}
+
+.urbanist-white {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: justify;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);;
+}
+
+.title1 {
+    font-size: 5rem;
+    color: white;
+    display: grid;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+.title2 {
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.title3 {
+    font-size: 2rem;
+    color: white;
+    padding-top: 80px;
+}
+
+.title4 {
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.title5 {
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.title6 {
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 100px;
+}
+
+.flex-right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 100px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.bg-pic1 {
+    width: 1500px;
+    height: 1000px;
+    background-image: url(territorypics/philippines.png);
+    background-size: 60% 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: auto;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+
+
+
+.one {
+    max-width: 500px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.two {
+    max-width: 700px;
+    font-size: 20px;
+    text-align: center;
+    text-align-last: center;
+    padding-top: 1px;
+}
+
+.three    {
+    max-width: 700px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    padding-top: 100px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+
+}
+
+.four    {
+    max-width: 900px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    padding-top: 20px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+
+}
+
+.five    {
+    max-width: 500px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    padding-top: 20px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+}
+
+
+.six    {
+    max-width: 900px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+    padding-top: 20px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+}
+
+.seven    {
+    max-width: 700px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+
+}
+
+.eight    {
+    max-width: 700px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+    padding-right: 50px;
+}
+
+
+.nine    {
+    max-width: 600px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+    padding-right: 50px;
+    padding-top: 180px;
+}
+
+.ten    {
+    max-width: 1200px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    padding-top: 20px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+
+}
+
+.eleven    {
+    max-width: 500px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    padding-top: 20px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+    padding-right: 100px;
+}
+
+.twelve    {
+    max-width: 300px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);;
+}
