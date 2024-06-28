@@ -223,5 +223,55 @@ img {
 }
 
 #implications {
-    background: linear-gradient(to bottom, #6C1B0E, black);
+    background: linear-gradient(to bottom, #6C1B0E, rgb(157, 157, 157));
+}
+
+#gradt {
+    background: linear-gradient(to bottom, rgb(50, 50, 50), black);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redirect-button {
+    width: 50%;
+    height: 70%;
+    padding: 3%;
+    margin: 25px ;
+    font-size: 200%;
+    cursor: pointer;
+    border: none;
+    font-family: "Urbanist", sans-serif;
+    border-radius: 15px;
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+#butt1 {
+    background: rgb(0, 0, 0);
+}
+
+#butt1:hover {
+    background: rgb(89, 89, 89);
+}
+
+#butt2 {
+    background: rgb(111, 250, 31);
+}
+
+#butt2:hover {
+    background: rgb(146, 255, 121);
+}
+
+#butt3 {
+    background: rgb(0, 0, 255);
+}
+
+#butt3:hover {
+    background: rgb(135, 135, 255);  
 }
