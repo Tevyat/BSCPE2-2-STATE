@@ -92,6 +92,14 @@ body {
 
 }
 
+.pages_selection li img:hover{
+    height: 300px;
+    width: 250px;
+    object-fit: scale-down;
+    cursor: pointer;
+
+}
+
 .pages_selection li {
     list-style-type: none;
     justify-content: space-between;
@@ -101,7 +109,7 @@ body {
 
 .pages_selection li img{
     height: 200px;
-    width: 150x;
+    width: 150px;
     object-fit: scale-down;
     border-radius: 10%;
 }
@@ -126,10 +134,11 @@ body {
 
 
     
-.content_section .content a button:hover{
+.content_section .content  button:hover{
     box-shadow: 0 0 #333;
     color: #fff;
     background-color: #333;
+    cursor: pointer;
 }
 
 .drop-down {
